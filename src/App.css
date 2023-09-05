@@ -1,0 +1,71 @@
+body {
+  background: #f0eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(214, 212, 212);
+  padding: 20px 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgb(214, 212, 212);
+  width: 100%;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  border: px solid rgb(214, 212, 212);
+  margin: 3px;
+  gap: 3px;
+  padding: 3px;
+  outline: none;
+}
+.input input {
+  border: 2px solid rgb(214, 212, 212);
+  padding: 7px;
+  border-radius: 3px;
+  background-color: rgb(243, 240, 240);
+}
+
+.input button {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background: hwb(207 37% 1%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 3px;
+  margin: 5px 0px;
+}
+.input input:focus {
+  border: 2px solid rgb(191, 187, 187);
+  outline: none;
+}
+
+.input button:hover {
+  background: hwb(207 14% 0%);
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: 0px 8px;
+}
+
+.footer h3 span {
+  color: hwb(207 14% 0%);
+  cursor: pointer;
+}
